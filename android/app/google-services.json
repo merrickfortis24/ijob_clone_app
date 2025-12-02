@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318041255310",
+    "project_id": "ijob-clone-app-843b9",
+    "storage_bucket": "ijob-clone-app-843b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318041255310:android:420a283e61a7eda38288df",
+        "android_client_info": {
+          "package_name": "fortis.ijob_clone_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO3DZ4-TA3Cxk-ZurQDdm9dOH48swZlH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
