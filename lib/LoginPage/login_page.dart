@@ -98,7 +98,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
         children: [
           Positioned.fill(
             child: Image.asset(
-              'assets/images/wallpaper.jpg',
+              'assets/images/signup.jpg',
               width: double.infinity,
               height: double.infinity,
               fit: BoxFit.cover,
