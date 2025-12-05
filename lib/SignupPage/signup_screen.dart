@@ -9,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import '../Services/global_variables.dart';
+import 'package:ijob_clone_app/LoginPage/login_page.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -354,6 +355,7 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                         },
                         style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
+                          labelText: 'Email',
                           hintText: 'Email',
                           hintStyle: TextStyle(color: Colors.white),
                           enabledBorder: UnderlineInputBorder(
@@ -465,6 +467,30 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                                   ),
                           ),
                         ),
+                      ),
+                      const SizedBox(height: 12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Text(
+                            'Already have an account?',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          TextButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Login(),
+                                ),
+                              );
+                            },
+                            child: const Text(
+                              'Login',
+                              style: TextStyle(color: Colors.cyan),
+                            ),
+                          ),
+                        ],
                       ),
                     ],
                   ),
