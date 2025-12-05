@@ -327,12 +327,18 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           }
                           return null;
                         },
+                        cursorColor: Colors.white,
                         style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'Name',
+                          labelStyle: TextStyle(color: Colors.white),
+                          floatingLabelStyle: TextStyle(color: Colors.white),
                           hintText: 'Full name / Company name',
                           hintStyle: TextStyle(color: Colors.white),
                           enabledBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.white),
+                          ),
+                          focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(color: Colors.white),
                           ),
                         ),
@@ -353,12 +359,18 @@ class _SignUpState extends State<SignUp> with TickerProviderStateMixin {
                           }
                           return null;
                         },
+                        cursorColor: Colors.white,
                         style: const TextStyle(color: Colors.white),
                         decoration: const InputDecoration(
                           labelText: 'Email',
+                          labelStyle: TextStyle(color: Colors.white),
+                          floatingLabelStyle: TextStyle(color: Colors.white),
                           hintText: 'Email',
                           hintStyle: TextStyle(color: Colors.white),
                           enabledBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.white),
+                          ),
+                          focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(color: Colors.white),
                           ),
                         ),
